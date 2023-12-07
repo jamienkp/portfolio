@@ -40,13 +40,16 @@ nav ul li {
     height: 100vh;
     text-align: center;
     overflow: hidden;
-    top: 0;   
+    top: 0;
+	padding: 0;
 }
 
 .hero-container img{
     max-width: 100%;
     height: 100%;
     object-fit: cover;
+	margin: o;
+	padding: 0;
 }
 
 .hero-container p {
