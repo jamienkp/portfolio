@@ -52,6 +52,7 @@ nav ul li {
     object-fit: cover;
 	margin: o;
 	padding: 0;
+	flex-shrink: 0;
 }
 
 .hero-container p {
