@@ -140,6 +140,28 @@ section {
 }
 
 
+.image-container::before, 
+.image-container::after {
+    content: '';
+    display: block;
+    position: absolute;
+    border: solid #000 2px; // Change the border color and thickness as needed
+    z-index: 1; 
+}
+
+.image-container::before {
+    width: 70%; // Adjust as needed
+    height: 70%; // Adjust as needed
+    left: 15%; // Adjust as needed
+    top: 15%; // Adjust as needed
+} 
+
+.image-container::after {
+    bottom: 15%; // Adjust as needed
+    right: 15%; // Adjust as needed
+    width: 70%; // Adjust as needed
+    height: 70%; // Adjust as needed
+}
 
 
 
